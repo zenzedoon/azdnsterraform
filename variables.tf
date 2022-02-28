@@ -32,7 +32,7 @@ variable "ttl" {
 variable "arecords" {
   description = "The puplic ip assigned to the record DNS "
   type        = list(string)
-  default 	  = ""
+  default 	  = []
 
 }
 
