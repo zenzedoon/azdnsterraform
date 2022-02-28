@@ -35,7 +35,7 @@ resource "azurerm_dns_ns_record" "ns_record" {
   zone_name           = var.dnszonename
   resource_group_name = var.dns_rgname
   ttl                 = var.ttl
-  record = var.nsrecord
+  records = var.nsrecord
 }
 
 ######## record MX #########
