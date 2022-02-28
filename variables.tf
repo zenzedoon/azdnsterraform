@@ -75,7 +75,7 @@ variable "srvrecordweight" {
 variable "srvrecordport" {
   description = "The value of the SRV record port"
   type        = number
-  default 	  = NULL
+  default 	  = 80
 }
 
 variable "srvrecordtarget" {
