@@ -44,8 +44,8 @@ variable "cnamerecord" {
 
 variable "nsrecord" {
   description = "The value of the NS record "
-  type        = string
-  default 	  = ""
+  type        = list(string)
+  default 	  = []
 }
 
 variable "mxpreference" {
